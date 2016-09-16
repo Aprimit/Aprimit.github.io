@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Profile</title>
+<meta charset="utf-8">
+ <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <link rel="stylesheet" href="css/main.css" type="text/css">
+ <link href="http://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+ <link href="http://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+ 
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+<nav class="navbar navbar-default navbar-fixed-top">
+<div class="container">
+<div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+<span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="#myPage">Portfolio</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
+<ul class="nav navbar-nav navbar-right">
+<li><a href="#experience">Experience</a></li>
+<li><a href="#education">Education</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</div>
+</div>
+</nav>
+<div class="jumbotron text-center">
+<br><br>
+<h1>Who am I?</h1>
+<img class="profile_image" src="images/me.jpg" width="350px" height="350px">
+<h3>I am a developer</h3>
+<br><br><br>
+
+<!-- Container for Experience - START -->
+<div id="experience" class="container-fluid bg-black text-center">
+<h2>EXPERIENCE</h2>
+<div class="row slideanim">
+<div class="col-sm-6">
+<h4>SAP Labs India</h4>
+<h5>Associate Developer</h5>
+<h5>Aug, 2014</h5>
+</div>
+<div class="col-sm-6">
+<h4>Defence Research and Development Organization</h4>
+<h5>Trainee</h5>
+<h5>July, 2013-Dec, 2013</h5>
+</div>
+</div>
+</div>
+<!-- Container for Experience - END -->
+
+
+<!-- Container for Education - START -->
+<div id="education" class="container-fluid bg-white text-center">
+<h2>EDUCATION</h2>
+<div id="myCarousel" class="carousel slide text-center" data-ride="carousel">
+<ol class="carousel-indicators">
+<li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+<li data-target="#myCarousel" data-slide-to="1"></li>
+<li data-target="#myCarousel" data-slide-to="2"></li>
+<li data-target="#myCarousel" data-slide-to="3"></li>
+</ol>
+<div class="carousel-inner" role="listbox">
+<div class="item active">
+<h3>Birla Institute of Science & Technology, Pilani</h3>
+<h4>M.Tech in Software Engineering</h4>
+<h4>8.62</h4>
+</div>
+<div class="item">
+<h3>Guru Nanak Dev Engineering College, Ludhiana</h3>
+<h4>B.Tech in Computer Science & Engineering</h4>
+<h4>78.35%</h4>
+</div>
+<div class="item">
+<h3>C.B.S.E</h3>
+<h4>Non-Med</h4>
+<h4>77.40%</h4>
+</div>
+<div class="item">
+<h3>I.C.S.E</h3>
+<h4>English, Maths, Science</h4>
+<h4>84.43%</h4>
+</div>
+</div>
+<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+<span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+<span class="sr-only">Previous</span>
+</a>
+<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+<span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+<span class="sr-only">Next</span>
+</a>
+</div>
+</div>
+<!-- Container for Education - END -->
+
+
+
+<!-- Container for Projects - START -->
+<div id="projects" class="container-fluid bg-grey text-center">
+<h2>PROJECTS</h2>
+<div class="row slideanim">
+<div class="col-sm-6">
+<div class="panel panel-default text-center">
+<div class="panel-heading">
+<h3>Connected Health Platform</h3>
+</div>
+<div class="panel-body">
+<p>The SAP Connected Health is an extension to the HANA platform that is completely based on XS and therefore without 	the need for an external application server. The presentation logic runs on the client as a browser-based web 	application that communicates via HTTP/S.
+	The SAP Connected Health UI is built as a HANA Fiori Launchpad and serves as the central entry point for all the 	applications that are enabled with the means of SAP Connected Health.
+	SAP Connected Health User Management extends the core HANA user management functionality and provides tools 	for a User Administrator to onboard users belonging to an organizational unit/clinic.
+</p>
+</div>
+</div>
+</div>
+<div class="col-sm-6">
+<div class="panel panel-default text-center">
+<div class="panel-heading">
+<h3>Connection Server</h3>
+</div>
+<div class="panel-body">
+<p>Connection Server (CS) is the SAP Business Objects data access software that manages the connection between the 	application and the data source. Connection Server comes with the SAP Business Objects Enterprise (BOE) suite. CS 	allows SAP Business Objects applications such as the universe design tool (a.k.a. Designer) and SAP Business Objects 	interactive Analysis (a.k.a. WebI) to connect to and run queries against a data source.
+
+	Connection Server does not have a user interface. You create and administer connections from the user interface of 	SAP Business Objects applications, or by editing Connection Server configuration files.
+	You optimize the way data is passed through Connection Server by modifying data access configuration files. These files 	are in XML format, and are installed with Connection Server. You can set parameter values to apply to a specific data 	access driver, or to all installed data access drivers.
+</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Container for Projects - END -->
+
+
+<!-- Container for skills - START --> 
+<div id="skills" class="container-fluid bg-white text-center">
+<h2>SKILLS</h2>
+<h4>What I am best at</h4>
+<div class="row slideanim">
+<div class="col-sm-4">
+<img src="https://cdn-production.codecademy.com/assets/cards/skill/learn-java-a0f09c278aa8735ef0a95eab2ffe4797.svg" width="100px" height="100px">
+<h4>JAVA</h4>
+<p>Description</p>
+</div>
+<div class="col-sm-4">
+<img src="https://cdn-production.codecademy.com/assets/cards/skill/learn-sql-3bd8da75c39363f8acef35aa0d091b27.svg" width="100px" height="100px">
+<h4>SQL</h4>
+<p>Description</p>
+</div>
+<div class="col-sm-4">
+<img src="https://cdn-production.codecademy.com/assets/cards/skill/learn-git-6347ded4c6e0dcb8feec5b83201dd58d.svg" width="100px" height="100px">
+<h4>HTML5</h4>
+<p>Description</p>
+</div>
+</div>
+<div class="row slideanim">
+<div class="col-sm-4">
+<img src="https://cdn-production.codecademy.com/assets/cards/skill/learn-java-a0f09c278aa8735ef0a95eab2ffe4797.svg" width="100px" height="100px">
+<h4>JQuery</h4>
+<p>Description</p>
+</div>
+<div class="col-sm-4">
+<img src="https://cdn-production.codecademy.com/assets/cards/skill/learn-java-a0f09c278aa8735ef0a95eab2ffe4797.svg" width="100px" height="100px">
+<h4>CSS</h4>
+<p>Description</p>
+</div>
+<div class="col-sm-4">
+<img src="https://cdn-production.codecademy.com/assets/cards/skill/learn-java-a0f09c278aa8735ef0a95eab2ffe4797.svg" width="100px" height="100px">
+<h4>SAPUI5</h4>
+<p>Description</p>
+</div>
+</div>
+</div>
+<!-- Container for skills - END --> 
+
+<!-- Container for contact - START -->
+<div id="contact" class="container-fluid bg-grey">
+<h2 class="text-center">CONTACT</h2>
+<div class="row slideanim">
+<div class="col-sm-5">
+<p>Find my details here!</p>
+<p><span class="glyphicon glyphicon-map-maker">Bengaluru, India</span></p>
+<p><span class="glyphicon glyphicon-phone">+91-9663385378</span></p>
+<p><span class="glyphicon glyphicon-envelope">aprimit2202@gmail.com</span></p>
+</div>
+<div class="col-sm-7 slideanim">
+<div class="row">
+<div class="col-sm-6 form-group">
+<input class="form-control" id="name" name="name" placeholder="Name" type="text" required> </div>
+<div class="col-sm-6">
+<input class="form-control" id="email" name="email" placeholder="Email" type="email" required></div>
+<textarea class="form-control" id="comments" name="comments" placeholder="Comments" rows="5"></textarea>
+<br>
+<div class="row">
+<div class="col-sm-12 form-group">
+<button class="btn btn-default pull-right" type="submit">Send</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Container for contact - END -->
+
+<!-- Google Maps for my location -START-->
+<div id="googleMap" class="container-fluid" style="height:400px;width:100%"></div>
+<script src="http://maps.googleapis.com/maps/api/js"></script>
+<script>
+var myCenter = new google.maps.LatLng(48.87146,2.35500);
+function initialize(){
+var mapProp={
+center:myCenter,
+zoom:12,
+scrollwheel:false,
+draggable:true,
+mapTypeId:google.maps.MapTypeId.ROADMAP
+};
+var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
+var marker = new google.maps.Marker({
+position:myCenter
+});
+marker.setMap(map);
+}
+google.maps.event.addDomListener(window,'load',initialize);
+</script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links in navbar + footer link
+  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 900, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+
+  $(window).scroll(function() {
+    $(".slideanim").each(function(){
+      var pos = $(this).offset().top;
+
+      var winTop = $(window).scrollTop();
+        if (pos < winTop + 600) {
+          $(this).addClass("slide");
+        }
+    });
+  });
+})
+</script>
+<!-- Google Maps for my location -END-->
+<footer class="container-fluid bg-black text-center">
+<a href="#myPage" title="To Top">
+<span class="glyphicon glyphicon-chevron-up"></span>
+</a>
+<p>Thanks for visiting</p>
+</footer>
+</div>
+</body>
+</html>
