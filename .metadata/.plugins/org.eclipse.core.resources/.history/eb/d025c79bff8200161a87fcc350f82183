@@ -1,0 +1,63 @@
+!SESSION 2016-09-25 14:33:54.409 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.8.0_51
+java.vendor=SAP AG
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 2 0 2016-09-25 14:34:10.848
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-09-25 14:34:10.848
+!MESSAGE Commands should really have a category: plug-in='com.sap.ndb.studio.view.ui', id='com.sap.ndb.studio.ui.commands.copyColumnViewName', categoryId='com.sap.ndb.studio.ui.category'
+
+!ENTRY org.eclipse.ui 2 0 2016-09-25 14:34:11.859
+!MESSAGE Warnings while parsing the commands from the 'org.eclipse.ui.commands' and 'org.eclipse.ui.actionDefinitions' extension points.
+!SUBENTRY 1 org.eclipse.ui 2 0 2016-09-25 14:34:11.859
+!MESSAGE Commands should really have a category: plug-in='com.sap.ndb.studio.view.ui', id='com.sap.ndb.studio.ui.commands.copyColumnViewName', categoryId='com.sap.ndb.studio.ui.category'
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2016-09-25 14:34:17.381
+!MESSAGE Registering: com.google.appengine.eclipse.sdkbundle_1.9.34
+
+!ENTRY com.google.gdt.eclipse.suite 1 0 2016-09-25 14:34:17.589
+!MESSAGE Registering: com.google.gwt.eclipse.sdkbundle_2.7.0
+
+!ENTRY org.eclipse.ui.navigator 2 0 2016-09-25 14:34:24.538
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY org.eclipse.ui.navigator 2 0 2016-09-25 14:34:24.543
+!MESSAGE Can't find Navigator Content Descriptor with id: org.eclipse.jst.servlet.ui.EnhancedJavaRendering
+
+!ENTRY com.sap.ndb.studio.modeler.base 4 0 2016-09-25 14:34:25.193
+!MESSAGE Image not found : icons/Misc/Delivery Unit.gif
+
+!ENTRY org.eclipse.jface 2 0 2016-09-25 14:34:43.893
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2016-09-25 14:34:43.893
+!MESSAGE A conflict occurred for CTRL+SHIFT+A:
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(com.sap.ndb.studio.navigator.actions.activate,Activate,
+		Activate,
+		Category(com.sap.ndb.studio.bi.uibindings.category,Modeler Keys,null,true),
+		com.sap.ndb.studio.modeler.command.handlers.ActivateHandler@29ac632a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.sap.ndb.studio.navigator.context.navigatorview,,,system)
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(com.sap.ndb.studio.dwb.team.ui.commands.openObject,Open SAP HANA Development Object,
+		Open SAP HANA Development Object,
+		Category(com.sap.ndb.studio.dwb.team.ui.category,SAP HANA Development,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@27165978,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	com.sap.ndb.studio.dwb.team.ui.contexts.DevWorkbenchPerspectiveContext,,,system)
+Binding(CTRL+SHIFT+A,
+	ParameterizedCommand(Command(org.eclipse.pde.ui.openPluginArtifact,Open Plug-in Artifact,
+		Open a plug-in artifact in the manifest editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@5b9815b6,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY com.google.gwt.eclipse.core 2 0 2016-09-25 14:36:25.035
+!MESSAGE GWT SDK not found
